@@ -82,8 +82,8 @@ const songlist = [
     {name: "bhaven-toon-jaan-na-jaan-ve", artist:"nusrat-fateh" , src: "Bhaven-Toon-Jaan-Na-Jaan-Ve-_-Nusrat-Fateh-Ali-Khan---Full-30-Min-Version.mp3"},
     {name: "jinhoo-karna-ae-yaad", artist:"nusrat-fateh" , src: "Jinhoon-Karna-Ae-Yaad-Dila.mp3"},
     {name: "piya-re-piya-re", artist:"nusrat-fateh" , src: "Piya-Re-Piya-Re-Nusrat-Fateh-Ali-Khan.mp3"},
-    {name: "wo-hata-rahe-hain-parde", artist:"nusrat-fateh" , src: "Woh-hata-rahe-hain-pardeh.mp3"},
-    {name: "ye-jo-halka", artist:"nusrat-fateh" , src: "Yeh-Jo-halka.mp3"},
+    {name: "wo-hata-rahe-hain-parde", artist:"nusrat-fateh" , src: "woh-hata-rahe-hain-pardeh.mp3"},
+    {name: "ye-jo-halka", artist:"nusrat-fateh" , src: "Yeh-Jo-Halka.mp3"},
 ];
 
 const player = new musicPlayer(songlist);

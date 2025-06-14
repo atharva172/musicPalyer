@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(247, 243, 243);
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    border: 10px solid orange;
+
+}
+
+h6{
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.border{
+    border: 3px solid rgb(234, 135, 5);
+    width: 20%;
+   margin: 0 auto;
+}
+
+#musicCard{
+    margin: 3% auto;
+    height: 80%;
+    width: 20%;
+    border: 3px solid rgb(165, 164, 164);
+    box-shadow: 4px 4px 10px rgba(0,0.3,0,0.3);
+    border-radius: 5%;
+}
+.card img{
+   width: 90%;
+   border-radius: 3%;
+   object-fit: cover;
+   box-shadow: 0px 8px 10px rgba(164, 13, 154, 0.5);
+}
+.upperlayout {
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 20px;
+}
+
+.card {
+    text-align: center;
+    margin: 10% auto ;
+    text-transform: uppercase;
+    
+}
+#title{
+    text-align: center;
+   margin-top: 8%;
+ 
+    text-transform: uppercase;
+}
+
+#artist{
+    text-align: center;
+    margin-top: 6px ;
+}
+
+h4{
+    font-size: 1em;
+    margin-top: 8%;
+    color: rgb(194, 192, 192);
+    justify-content: center;
+}
+
+
+
+
+#progresscontainer{
+    background-color: rgb(215, 209, 209);
+    margin: 2% auto;
+    width: 90%;
+    border-radius: 10%;
+   
+}
+#progress{
+    border: 2px solid orange;
+    width: 0%;
+    border-radius: 10%;
+    transition: width 0.2s ease;
+    overflow: hidden;
+}
+
+h5{
+    font-size: 0.6em;
+    justify-content: space-between;
+    display: flex;
+   padding: 0 19px;
+   margin-top: 15%;
+   color: grey;
+}
+
+#playbutton{
+    color: black;
+    border-radius: 50%;
+    width: 100%;
+    margin: 15% auto;
+    padding-left: 7px ;
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+}
+
+ #playbutton i{
+    font-size: 1.5em;  
+}
+
+
+#playbutton span{
+    font-size: 0.6em;
+    color: rgb(186, 185, 185);
+    align-items: center;
+    display: flex;
+}
+
+@media(max-width: 600px){
+    main{
+        width: 100%;
+        height: 100%;
+    }
+    #musicCard{
+        width: 65%;
+        height: 60%;
+        margin-top: 20% ;
+    }
+
+
+  #playbutton{
+    color: black;
+    border-radius: 50%;
+    width: 100%;
+    margin: 20% auto;
+    padding-left: 1px ;
+   display: flex;
+   justify-content: center;
+   gap: 25px;
+}
+
+ #playbutton i{
+    font-size: 1em;  
+}
+
+
+#playbutton span{
+    font-size: 0.6em;
+    color: rgb(186, 185, 185);
+    align-items: center;
+    display: flex;
+}
+   
+}

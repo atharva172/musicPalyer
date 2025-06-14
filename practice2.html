@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="oops.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <main>
+    <div id="center">
+      <h6>music player</h6>
+    <div class="border"></div>
+    </div>
+
+    <div id="musicCard">
+      <div class="upperlayout"><i class="fa-solid fa-arrow-left"></i><i class="fa-solid fa-ellipsis-vertical"></i></div>
+     
+      <div class="card">
+        <img src="1st song image.jpeg" alt="">
+
+        <div id="title">
+            <h2 >song name</h2>
+          </div>
+              <div id="artist">
+                <h4>artist name</h4>
+              </div>
+                
+              
+      
+       <h5><span id="currentTime">0:00</span> <span id="duration">0:00</span></h5>
+      
+
+        <div id="progresscontainer">
+        <div id="progress"></div>
+      </div>
+
+      <div id="bottom">
+    <div id="playbutton">
+      <span><i class="fa-solid fa-repeat"></i>
+      </span><i id="prev" class="fa-solid fa-backward-step"></i>
+      <i id="playpause" class="fa-solid fa-play"></i>
+      
+      <i id="next" class="fa-solid fa-forward-step"></i>
+      <span><i class="fa-solid fa-shuffle"></i></span>
+       </div>
+    
+      </div>
+      </div>
+    </div>
+    <audio id="audio" src=""></audio>
+  </main>
+
+  <script src="oops.js"></script>
+</body>
+</html>
